@@ -171,7 +171,7 @@ class App
         );
 
         this.headphonesloader = new GLTFLoader(manager);
-        this.headphonesloader.load('/models/headphones.glb',( gltf ) => {
+        this.headphonesloader.load('./models/headphones.glb',( gltf ) => {
             this.headphones.add( gltf.scene );
                 gltf.scene.traverse( o => {
                     if( o.isMesh ){
@@ -183,7 +183,7 @@ class App
         );
 
         this.phoneloader = new GLTFLoader(manager);
-        this.phoneloader.load('/models/phone.glb',( gltf ) => {
+        this.phoneloader.load('./models/phone.glb',( gltf ) => {
             this.phone.add( gltf.scene );
                 gltf.scene.traverse( o => {
                     if( o.isMesh ){
@@ -195,7 +195,7 @@ class App
         );
 
         this.mouseloader = new GLTFLoader(manager);
-        this.mouseloader.load('/models/mouse.glb',( gltf ) => {
+        this.mouseloader.load('./models/mouse.glb',( gltf ) => {
             this.mouse.add( gltf.scene );
                 gltf.scene.traverse( o => {
                     if( o.isMesh ){
@@ -207,7 +207,7 @@ class App
         );
 
         this.keyboardloader = new GLTFLoader(manager);
-        this.keyboardloader.load('/models/keyboard.glb',( gltf ) => {
+        this.keyboardloader.load('./models/keyboard.glb',( gltf ) => {
             this.keyboard.add( gltf.scene );
                 gltf.scene.traverse( o => {
                     if( o.isMesh ){
@@ -219,7 +219,7 @@ class App
         );
 
         this.camloader = new GLTFLoader(manager);
-        this.camloader.load('/models/camera.glb',( gltf ) => {
+        this.camloader.load('./models/camera.glb',( gltf ) => {
             this.cam.add( gltf.scene );
                 gltf.scene.traverse( o => {
                     if( o.isMesh ){
