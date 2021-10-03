@@ -1,6 +1,6 @@
-import * as THREE from './js/three.js-master/build/three.module.js';
-import { GLTFLoader } from './js/three.js-master/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from './js/three.js-master/examples/jsm/controls/OrbitControls.js';
+import * as THREE from '../js/three.js-master/build/three.module.js';
+import { GLTFLoader } from '../js/three.js-master/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from '../js/three.js-master/examples/jsm/controls/OrbitControls.js';
 //import * as dat from "/three.js-master/examples/jsm/libs/dat.gui.module.js";
 //import Stats from "/js/three.js-master/examples/jsm/libs/stats.module.js";
 
@@ -18,10 +18,10 @@ import { OrbitControls } from './js/three.js-master/examples/jsm/controls/OrbitC
 //import { RGBShiftShader } from '/js/three.js-master/examples/jsm/shaders/RGBShiftShader.js';
 //import { DotScreenShader} from '/js/three.js-master/examples/jsm/shaders/DotScreenShader.js';
 
-import { gsap } from './js/gsap/gsap-core.js';
-import { ScrollToPlugin } from "./js/gsap/ScrollToPlugin.js";
-import { ScrollTrigger } from "./js/gsap/ScrollTrigger.js";
-import { CSSPlugin } from "./js/gsap/CSSPlugin.js";
+import { gsap } from '../js/gsap/gsap-core.js';
+import { ScrollToPlugin } from "../js/gsap/ScrollToPlugin.js";
+import { ScrollTrigger } from "../js/gsap/ScrollTrigger.js";
+import { CSSPlugin } from "../js/gsap/CSSPlugin.js";
 gsap.registerPlugin(ScrollToPlugin);
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(CSSPlugin);
