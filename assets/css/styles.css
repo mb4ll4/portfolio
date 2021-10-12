@@ -1,3 +1,114 @@
+@font-face {
+  font-family:'PFDinMono-XThin';
+  src: url('./fonts/PFDinMono-XThin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PFDinMono-Thin';
+  src: url('./fonts/PFDinMono-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PFDinMono-Light';
+  src: url('./fonts/PFDinMono-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PFDinMono-Regular';
+  src: url('./fonts/PFDinMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PFDinMono-Medium';
+  src: url('./fonts/PFDinMono-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'PFDinMono-Bold';
+  src: url('./fonts/PFDinMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-UltraLight';
+  src: url('./fonts/DINNextLTPro-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Light';
+  src: url('./fonts/DINNextLTPro-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Regular';
+  src: url('./fonts/DINNextLTPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Medium';
+  src: url('./fonts/DINNextLTPro-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Bold';
+  src: url('./fonts/DINNextLTPro-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Heavy';
+  src: url('./fonts/DINNextLTPro-Heavy.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Black';
+  src: url('./fonts/DINNextLTPro-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-UltraLightCond';
+  src: url('./fonts/DINNextLTPro-UltraLightCond.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-LightCondensed';
+  src: url('./fonts/DINNextLTPro-LightCondensed.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-Condensed';
+  src: url('./fonts/DINNextLTPro-Condensed.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-MediumCond';
+  src: url('./fonts/DINNextLTPro-MediumCond.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-BoldCondensed';
+  src: url('./fonts/DINNextLTPro-BoldCondensed.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-HeavyCondensed';
+  src: url('./fonts/DINNextLTPro-HeavyCondensed.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'DINNextLTPro-BlackCondensed';
+  src: url('./fonts/DINNextLTPro-BlackCondensed.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* But this comment will, except in compressed mode.*/
 html {
   height: 100vh;
@@ -655,105 +766,7 @@ button:focus {
 } */
 
 
-@font-face {
-  font-family:'PFDinMono-XThin';
-  src: url('../fonts/PFDinMono-XThin.woff2') format('woff2');
-}
 
-@font-face {
-  font-family:'PFDinMono-Thin';
-  src: url('../fonts/PFDinMono-Thin.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'PFDinMono-Light';
-  src: url('../fonts/PFDinMono-Light.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'PFDinMono-Regular';
-  src: url('../fonts/PFDinMono-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'PFDinMono-Medium';
-  src: url('../fonts/PFDinMono-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'PFDinMono-Bold';
-  src: url('../fonts/PFDinMono-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-UltraLight';
-  src: url('../fonts/DINNextLTPro-UltraLight.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Light';
-  src: url('../fonts/DINNextLTPro-Light.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Regular';
-  src: url('../fonts/DINNextLTPro-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Medium';
-  src: url('../fonts/DINNextLTPro-Medium.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Bold';
-  src: url('../fonts/DINNextLTPro-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Heavy';
-  src: url('../fonts/DINNextLTPro-Heavy.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Black';
-  src: url('../fonts/DINNextLTPro-Black.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-UltraLightCond';
-  src: url('../fonts/DINNextLTPro-UltraLightCond.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-LightCondensed';
-  src: url('../fonts/DINNextLTPro-LightCondensed.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-Condensed';
-  src: url('../fonts/DINNextLTPro-Condensed.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-MediumCond';
-  src: url('../fonts/DINNextLTPro-MediumCond.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-BoldCondensed';
-  src: url('../fonts/DINNextLTPro-BoldCondensed.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-HeavyCondensed';
-  src: url('../fonts/DINNextLTPro-HeavyCondensed.woff2') format('woff2');
-}
-
-@font-face {
-  font-family:'DINNextLTPro-BlackCondensed';
-  src: url('../fonts/DINNextLTPro-BlackCondensed.woff2') format('woff2');
-}
 
 .header-container {
   width: 100%;
