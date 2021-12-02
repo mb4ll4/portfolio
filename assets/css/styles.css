@@ -958,8 +958,8 @@ button:focus {
 
 @media (max-width: 39.9375em) {
   .content__inner {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: repeat 4, 1fr;
+        grid-template-columns: repeat 4, 1fr;
     -webkit-column-gap: 1.3em;
             column-gap: 1.3em;
   }
@@ -967,8 +967,8 @@ button:focus {
 
 @media (min-width: 40em) {
   .content__inner {
-    -ms-grid-columns: (1fr)[8];
-        grid-template-columns: repeat(8, 1fr);
+    -ms-grid-columns: repeat 8, 1fr;
+        grid-template-columns: repeat 8, 1fr;
     -webkit-column-gap: 1.3em;
             column-gap: 1.3em;
   }
@@ -976,8 +976,8 @@ button:focus {
 
 @media (min-width: 64em) {
   .content__inner {
-    -ms-grid-columns: (1fr)[12];
-        grid-template-columns: repeat(12, 1fr);
+    -ms-grid-columns: repeat 12, 1fr;
+        grid-template-columns: repeat 12, 1fr;
     -webkit-column-gap: 1.3em;
             column-gap: 1.3em;
   }
