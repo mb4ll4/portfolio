@@ -53,7 +53,7 @@ h1, h2, h3, h4, p {
 h1 {
   font-family: 'DINNextLTPro-Black';
   font-size: calc(2em + 7vw);
-  color: #828282;
+  color: #cb2f2f;
   text-align: left;
   line-height: 100%;
   letter-spacing: 0.05rem;
@@ -63,7 +63,7 @@ h1 {
 h2 {
   font-family: 'DINNextLTPro-Black';
   font-size: 24px;
-  color: #828282;
+  color: #3b2591;
   text-align: left;
   line-height: 100%;
   letter-spacing: 0.05rem;
@@ -73,7 +73,7 @@ h2 {
 h3 {
   font-family: 'DINNextLTPro-Light';
   font-size: 1rem;
-  color: #828282;
+  color: #23a47b;
   text-align: left;
   line-height: 100%;
   letter-spacing: 0.05rem;
@@ -91,7 +91,7 @@ h3 {
 p {
   font-family: "PFDinMono-Regular";
   font-size: 0.688rem;
-  color: #828282;
+  color: #cf2525;
   /* text-transform: uppercase; */
   font-display: swap;
   letter-spacing: 0.08rem;
@@ -734,7 +734,7 @@ button:focus {
 
 @font-face {
   font-family: 'PFDinMono-Light';
-  src: url(../"../fonts/PFDinMono-Light.woff2") format("woff2");
+  src: url("../../fonts/PFDinMono-Light.woff2") format("woff2");
 }
 
 @font-face {
